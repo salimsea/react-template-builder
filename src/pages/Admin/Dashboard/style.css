@@ -1,0 +1,49 @@
+.dashboard {
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.dashboard h4 {
+    font-family: 'Mochiy Pop P One',
+        sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2C2C2C;
+}
+
+.dashboard .widget {
+    background-color: #2F3A8F;
+    border-radius: 10px;
+}
+.dashboard .widget .icon-widget {
+    width: 60px;
+    height: 60px;
+    background-color: #FE7E6D;
+    border-radius: 100%;
+}
+.dashboard .widget small {
+    font-family: 'Mochiy Pop P One',
+    sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.dashboard .widget h6 {
+    font-family: 'Mochiy Pop P One',
+    sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.dashboard .chart tspan {
+    font-family: 'DM Mono';
+    color: #2C2C2C;
+    font-size: 13px;
+    font-weight: 300px;
+}
+

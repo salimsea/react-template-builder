@@ -1,0 +1,29 @@
+.tm-menu {
+    position: fixed;
+    margin: 20px;
+    z-index: 999;
+}
+.preview {
+    position: relative;
+}
+.preview .trash {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 1.75rem;
+    border-radius: 100%;
+    transition: none;
+    box-shadow: none;
+    display: none;
+}
+.preview:hover .trash {
+    display: block !important;
+    cursor: pointer;
+}
+.preview .trash:hover {
+    transition: 0.4s;
+    box-shadow: -4px 8px 15px 0px rgba(167, 167, 167, 0.25);
+}

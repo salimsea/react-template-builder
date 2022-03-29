@@ -1,0 +1,79 @@
+.footer {
+    padding: 50px 0px 0px 0px;
+    background: #2F3A8F;
+}
+
+.footer .text-copyright-salim {
+    font-family: DM Mono;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer .btn-primary {
+    font-family: 'DM Mono';
+    background: #2F3A8F;
+    border: 5px solid #FE7E6D;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-weight: normal;
+}
+
+.footer h2 {
+    font-family: DM Mono;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer h6 {
+    font-family: DM Mono;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.footer ul {
+    font-family: DM Mono;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer li a {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+}
+.footer li a:hover {
+    color: #FE7E6D;
+    font-weight: 400;
+}
+
+.footer .bulet-white {
+    width: 10px;
+    height: 10px;
+    margin-left: -29px;
+    padding: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    position: absolute;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-family: DM Mono;
+    background: #FE7E6D;
+    padding: 10px 0px 10px 0px;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    color: white;
+}

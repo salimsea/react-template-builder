@@ -1,0 +1,73 @@
+.sidebar {
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background: #fff;
+    width: 290px;
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.sidebar .content {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.sidebar .content::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+.sidebar .content::-webkit-scrollbar-thumb {
+    background: #e5e9f2;
+    border-radius: 10px;
+}
+
+.sidebar .card-menu h4 {
+    font-family: 'Mochiy Pop P One',
+        sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #2C2C2C;
+}
+
+.sidebar .item a {
+    text-decoration: inherit;
+}
+
+.sidebar .item span {
+    padding-left: 10px;
+    font-family: DM Mono;
+    font-weight: 500;
+    font-size: 15px;
+    color: grey;
+}
+
+.sidebar .item span:hover {
+    color: #2F3A8F;
+    cursor: pointer;
+}
+
+.main-wrapper {
+    margin-right: auto;
+    position: relative;
+    padding: 30px 0;
+    margin-left: 330px;
+}
+
+@media only screen and (min-width: 1900px) {
+    .menu {
+        padding: 5%;
+    }
+   
+}
+@media only screen and (max-width: 768px) {
+    .main-wrapper {
+        margin-left: inherit;
+    }
+}
