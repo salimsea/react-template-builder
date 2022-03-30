@@ -11,56 +11,33 @@ import {
   Button,
 } from "reactstrap";
 import { Logo } from "src/assets";
+import { AiOutlineDownload } from "react-icons/ai";
 import "./style.css";
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <Navbar expand="lg" light container="md" className="py-4">
+      <div className="bg-primary">
+        <div className="container text-center py-3">
+          <span className="text-white">
+            Welcome in templatebuilder.id 🇮🇩 &nbsp;use template in your project,
+            &nbsp;
+            <b>you see bug ?</b> contact me :)
+          </span>
+        </div>
+      </div>
+      <Navbar expand="lg" light container="fluid" className="py-4 maxWidth">
         <NavbarBrand href="/">
-          <img src={Logo} width="50" className="img-fluid" alt="" />
+          <img src={Logo} className="img-fluid" alt="" />
         </NavbarBrand>
         {/* <NavbarToggler onClick={() => setIsOpen(!isOpen)} className="d-none" /> */}
         <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ms-auto" navbar>
-            <NavItem active>
-              <NavLink to="/" tag={RRNavLink}>
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/portfolio" tag={RRNavLink}>
-                Portfolio
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                to="/blog"
-                onClick={() =>
-                  (window.location = "https://salim-tekno.blogspot.com/")
-                }
-                tag={RRNavLink}
-              >
-                Blog
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/tools" tag={RRNavLink}>
-                Tools
-              </NavLink>
-            </NavItem>
-          </Nav>
-          <Button
-            onClick={() =>
-              window.location.replace(
-                "https://wa.me/6282112235774?text=Assalamualaikum%20Warahmatullahi%20Wabarakatuh"
-              )
-            }
-            className="btn-costum-primary-outline ms-4 px-5"
-          >
-            CONTACT ME
+          <Nav className="ms-auto" navbar></Nav>
+          <Button onClick={props.onClick} className="btn btn-primary py-2 px-3">
+            <AiOutlineDownload color="white" size={20} className="me-2" />
+            Download
           </Button>
         </Collapse>
       </Navbar>

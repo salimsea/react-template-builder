@@ -1,4 +1,4 @@
-import { Login, Blog, Home, Portfolio, Test, Create } from "src/pages";
+import { Create } from "src/pages";
 
 const route_guest = [
   {

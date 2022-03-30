@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Mochiy+Pop+P+One&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 p {
   font-family: 'DM Mono';
@@ -14,21 +14,26 @@ body {
   background: #F3F5FC;
 }
 
-.btn-costum-primary-outline {
-  font-family: 'DM Mono';
-  background: #2F3A8F;
-  border: 5px solid #FE7E6D;
-  box-sizing: border-box;
-  border-radius: 20px;
+.bg-primary {
+  background-color: #6D9886 !important;
+}
+
+.btn-primary {
+  font-family: 'Poppins';
+  background: #6D9886;
+  border: none;
   color: white;
 }
 
-.btn-costum-primary-outline:hover {
-  font-family: 'DM Mono';
-  background: #293379;
-  border: 5px solid #FE7E6D;
-  box-sizing: border-box;
-  border-radius: 20px;
+.btn-primary:hover {
+  font-family: 'Poppins';
+  background: #5d8172;
+  border: none;
+  color: white;
+}
+.btn-primary:focus {
+  font-family: 'Poppins';
+  background: #5d8172;
   color: white;
 }
 
